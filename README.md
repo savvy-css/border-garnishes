@@ -23,6 +23,17 @@ npm install --save-dev @savvy-css/border-garnishes
 
 ## Usage
 
+Within a project that's capable of importing CSS, simply import
+the module by its package name within your own CSS:
+
+```css
+@import "@savvy-css/border-garnishes";
+
+```
+
+Importing this module will add [its properties](/lib/border-garnishes.css) to your project. To override them, simply define them in any portion of your CSS that's imported/processed later.
+
+
 
 [npm-badge]: https://img.shields.io/npm/v/@savvy-css/border-garnishes.svg
 [npm-badge-url]: https://www.npmjs.com/package/@savvy-css/border-garnishes

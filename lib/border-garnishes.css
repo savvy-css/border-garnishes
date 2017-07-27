@@ -1,1 +1,21 @@
 /* @define border-garnishes */
+
+/**
+ * Base border
+ */
+
+.g-border-1,
+.g-border-2,
+.g-border-3,
+.g-border-4 {
+  border-style: solid !important;
+}
+
+.g-border-1 { border-width: 1px !important; }
+.g-border-2 { border-width: 2px !important; }
+.g-border-3 { border-width: 3px !important; }
+.g-border-4 { border-width: 4px !important; }
+
+
+.g-border-none { border-width: 0 !important; }
+
