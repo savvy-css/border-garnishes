@@ -31,9 +31,9 @@
     "live-server": "^1.2.0",
     "nsp": "^2.6.3",
     "postcss-cli": "^4.1.0",
-    "postcss-cssnext": "^2.11.0",
+    "postcss-cssnext": "^3.0.2",
     "postcss-import": "^10.0.0",
-    "stylelint": "^7.11.0"
+    "stylelint": "^8.0.0"
   },
   "scripts": {
     "clean": "del build/**",
