@@ -1,9 +1,61 @@
 /* @define border-garnishes */
 
+
+/* ----------- Base border ----------- */
+
+.g-border-1,
+.g-border-2,
+.g-border-3,
+.g-border-4 {
+  border-color: var(--border-color, #AFAFAF) !important;
+}
+
+.g-border-1 { border-width: var(--border-width-1, 1px) !important; }
+.g-border-2 { border-width: var(--border-width-2, 2px) !important; }
+.g-border-3 { border-width: var(--border-width-3, 3px) !important; }
+.g-border-4 { border-width: var(--border-width-4, 4px) !important; }
+
+
+/**
+ * Default to a solid border on all sides unless at least one size modifier is used
+ */
+.g-border-1:not(.g-border--b):not(.g-border--t):not(.g-border--l):not(.g-border--r) { border-style: solid !important; }
+.g-border-2:not(.g-border--b):not(.g-border--t):not(.g-border--l):not(.g-border--r) { border-style: solid !important; }
+.g-border-3:not(.g-border--b):not(.g-border--t):not(.g-border--l):not(.g-border--r) { border-style: solid !important; }
+.g-border-4:not(.g-border--b):not(.g-border--t):not(.g-border--l):not(.g-border--r) { border-style: solid !important; }
+
+
+.g-border-none { border-width: 0 !important; }
+
+
+/* ----------- Side Modifiers ----------- */
+
+.g-border--t { border-top-style: solid !important; }
+.g-border--r { border-right-style: solid !important; }
+.g-border--b { border-bottom-style: solid !important; }
+.g-border--l { border-left-style: solid !important; }
+
+
+/* ----------- Color Modifiers ----------- */
+
+.g-border--light {
+  border-color: var(--border-color--light, #E5E5E5) !important;
+}
+
+.g-border--dark {
+  border-color: var(--border-color--dark, #5F5F5F) !important;
+}
+
+
+
+
+
+
+
 /**
  * Base border
  */
-
+/*
 .g-border-1,
 .g-border-2,
 .g-border-3,
@@ -18,4 +70,4 @@
 
 
 .g-border-none { border-width: 0 !important; }
-
+ */

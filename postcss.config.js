@@ -19,7 +19,7 @@ module.exports = ctx => {
       'postcss-cssnext': {
         features: {
           customProperties: {
-            preserve: CURRENT_FILE_BASE_NAME !== 'index.css'
+            preserve: true
           }
         }
       },

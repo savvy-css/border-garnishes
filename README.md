@@ -33,6 +33,13 @@ the module by its package name within your own CSS:
 
 Importing this module will add [its properties](/lib/border-garnishes.css) to your project. To override them, simply define them in any portion of your CSS that's imported/processed later.
 
+### Using Custom Properties
+
+You'll notice that some rules attempt to reference a custom CSS property
+before falling back to a default value. This allows you to override
+the defaults by defining these properties within your own project.
+
+⚠️ Be sure to define your properties _before_ this module is imported.
 
 
 [npm-badge]: https://img.shields.io/npm/v/@savvy-css/border-garnishes.svg
