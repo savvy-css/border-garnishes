@@ -1,6 +1,6 @@
 {
   "name": "@savvy-css/border-garnishes",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Border garnishes for Savvy CSS.",
   "main": "build/border-garnishes.css",
   "style": "build/border-garnishes.css",
